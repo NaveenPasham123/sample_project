@@ -22,7 +22,7 @@ export default function Login() {
 
   return (
     <div>
-      <form action={handleSubmit} className="flex flex-col gap-3">
+      <form action={handleSubmit} className="flex flex-col gap-3 m-3 ">
         <input name="name" placeholder="Username" />
         <input name="email" placeholder="Email" />
         <input name="password" type="password" placeholder="Password" />
